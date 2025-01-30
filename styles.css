@@ -265,11 +265,12 @@ header::before {
 
 .header__content h1 {
   margin-bottom: 2rem;
-  font-size: 4.5rem;
+  font-size: 3rem;
   font-weight: 600;
   color: var(--text-dark);
   line-height: 5.5rem;
   text-align: center;
+  font-family: 'Designer', sans-serif; 
 }
 
 .header__btns {
@@ -435,6 +436,28 @@ header::before {
   border-radius: 10px;
   /* Opcional para bordes redondeados */
 }
+
+@font-face {
+  font-family: 'Designer';
+  src: url('fonts/Designer.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carving';
+  src: url('fonts/carving.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; /* Puedes cambiar entre 300 (light), 400 (regular) o 600 (bold) */
+  font-size: 2rem;  /* Ajusta el tamaño según lo necesites */
+  color: #333;      /* Cambia el color si es necesario */
+}
+
 
 
 .showcase__content h4 {
@@ -871,6 +894,7 @@ footer {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 10px;
+
   }
 
   .header2__content h2:nth-child(2) {
@@ -922,7 +946,7 @@ footer {
 
   .header__content {
     grid-column: 2/4;
-    padding-block: 8rem;
+    padding-block: 6rem;
   }
 
   .header__content :is(p, h1) {
