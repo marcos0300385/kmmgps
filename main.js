@@ -70,9 +70,31 @@ ScrollReveal().reveal(".discover__card", {
 });
 
 const swiper = new Swiper(".swiper", {
-  slidesPerView: 3,
-  spaceBetween: 20,
-  loop: true,
+  loop: true, // Permite desplazamiento infinito
+  spaceBetween: 20, // Espacio entre tarjetas
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  autoplay: {
+    delay: 3000, // Cambia de slide cada 3 segundos
+    disableOnInteraction: false, // Sigue funcionando tras interacción
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1, // En celulares muestra 1 tarjeta
+    },
+    768: {
+      slidesPerView: 2, // En tablets muestra 2 tarjetas
+    },
+    1024: {
+      slidesPerView: 3, // En pantallas grandes muestra 3 tarjetas
+    }
+  }
 });
 
 ScrollReveal().reveal(".choose__image img", {

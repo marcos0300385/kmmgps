@@ -13,8 +13,9 @@
   <link rel="stylesheet" href="styles.css" />
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  
 
-  <title>Portal de GPS_Machala | Pambi GPS</title>
+  <title>Portal de SyncTrack GPS | SyncTrack GPS</title>
 
   <div id="myButton"></div>
 </head>
@@ -24,11 +25,11 @@
     $(function () {
       $('#myButton').floatingWhatsApp({
         phone: '593991828721',
-        popupMessage: 'Bienvenido a PMM GPS, en que podemos ayudarte?',
-        message: "Deseo Información",
+        popupMessage: 'Bienvenido a SyncTrack GPS, en que podemos ayudarte?',
+        message: "Deseo Información, sobre los planes Disponibles para Gps, de Antemano muy amable.",
         showPopup: true,
         showOnIE: false,
-        headerTitle: 'Bienvenido a PMM!',
+        headerTitle: 'Bienvenido a SyncTrack GPS!',
         buttonImage: '<img src="icons8_phone_30px_1.png" />',
         zIndex: 9999,
         position: 'right'
@@ -38,7 +39,9 @@
   <nav>
     <div class="nav__header">
       <div class="nav__logo">
-        <a href="#" class="logo">PMM GPS</a>
+        <a href="#" class="logo">
+          <img src="assets/logo.png" alt="SyncTrack GPS">
+      </a>      
       </div>
       <div class="nav__menu__btn" id="menu-btn">
         <i class="ri-menu-line"></i>
@@ -49,7 +52,6 @@
       <li><a href="#Servicios">Servicios</a></li>
       <li><a href="#package">Nosotros</a></li>
       <li><a href="#contact">Contactos</a></li>
-      <li><a href="#">BOOK TRIP</a></li>
     </ul>
   </nav>
 
@@ -57,10 +59,9 @@
     <div class="header__container">
       <div class="header__content">
         <h2 style="font-family: 'Carving', sans-serif;">¡Mantén el control de tu vehículo en todo momento con nuestra</h2>
-        <h1>Tecnología GPS avanzada!"</h1>
+<h1>Tecnología GPS avanzada!</h1>
+
         <div class="header2__btns">
-
-
         </div>
       </div>
       <div class="header2__image">
@@ -70,17 +71,19 @@
   </header>
 
   <section class="section__container destination__container" id="about">
-    <h2 class="poppins-text" class="section__header" >¡Protege lo que más importa!<br>Contáctanos hoy mismo.</h2>
-    <p class="poppins-text" class="section__description">
-      "Tu tranquilidad, nuestra prioridad: Soluciones GPS confiables para automóviles, camiones y motos."
-    </p>
+    <h2 class="poppins-text section__header">¡Protege lo que más importa!<br>Contáctanos hoy mismo.</h2>
+<p class="poppins-text section__description">
+  "Tu tranquilidad, nuestra prioridad: Soluciones GPS confiables para automóviles, camiones y motos."
+</p>
+
     <div class="destination__grid">
       <div class="destination__card">
         <img src="assets/destination-1.jpg" alt="destination" />
         <div class="destination__card__details">
           <div>
             <h4>Monitoreo en tiempo real</h4>
-            <p>Rastrea tu vehiculo a traves de nuestra App</p>
+<p>Rastrea tu vehículo a través de nuestra App</p>
+
           </div>
           <!--<div class="destination__rating">
               <span><i class="ri-star-fill"></i></span>
@@ -93,8 +96,8 @@
         <div class="destination__card__details">
           <div>
             <h4>Rastreo y Bloqueo</h4>
-            <p>Localiza tu vehículo y bloquea su motor fácilmente, escucha y controla puertas con tecnología premium</p>
-          </div>
+            <p>Localiza tu vehículo y bloquea su motor fácilmente; escucha y controla las puertas con tecnología premium.</p>
+             </div>
           <!--<div class="destination__rating">
               <span><i class="ri-star-fill"></i></span>
               4.5
@@ -117,86 +120,63 @@
     </div>
   </section>
 
-
-
-  <!--<section class="section__container banner__container">
-      <div class="banner__card">
-        <h4>10+</h4>
-        <p>Years Experience</p>
-      </div>
-      <div class="banner__card">
-        <h4>12K</h4>
-        <p>Happy Clients</p>
-      </div>
-      <div class="banner__card">
-        <h4>4.8</h4>
-        <p>Overall Ratings</p>
-      </div>
-    </section>-->
   <div class="banner__container">
     <img src="assets/banner.jpg" alt="Promoción GPS">
   </div>
   <section class="section__container discover__container" id="Servicios">
     <h2 class="poppins-text" class="section__header">PLANES DEL SERVICIO GPS</h2>
-    <p  class="poppins-text" class="section__description">
+    <p class="poppins-text section__description">
       ¿Listo para proteger tu vehículo?<br>
-      <span style="font-weight: bold; font-size: 28px; color: #003366;">Conoce los planes disponibles</span>
+      <span style="font-weight: bold; font-size: 28px; color: #f3f4f6;">Conoce los planes disponibles</span>
     </p>
+    
 
 
     <div class="discover__grid">
       <div class="discover__card">
-        <span><i class="ri-camera-lens-line"></i></span>
-        <h4>Plan Común</h4>
+        <span><i class="ri-wallet-line"></i></span>
+        <h4>Plan Sentinel</h4>
         <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
           <li style="text-align: left; margin: 0;">
             <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Instalación gratis
           </li>
           <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Equipo básico
+            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Equipo GPS
+          </li>
+          <li style="text-align: left; margin: 0;">
+            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Renovación Mensual o Anual
           </li>
           <li style="text-align: left; margin: 0;">
             <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Acceso a la plataforma
           </li>
           <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Mes de servicio activo incluido.
+            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Aplicación Android para control total
           </li>
         </ul>
+        
       </div>
       <div class="discover__card">
-        <span><i class="ri-camera-lens-line"></i></span>
-        <h4>Plan Avanzado</h4>
+        <span><i class="ri-wallet-line"></i></span>
+        <h4>Plan Guardian</h4>
         <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
           <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Instalación gratis
+            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Incluye todo lo del Plan Sentinel
           </li>
           <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Equipo Premium
-          </li>
-          <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Acceso a la plataforma
-          </li>
-          <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Mes de servicio activo incluido
+            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Botón de pánico
           </li>
         </ul>
       </div>
 
       <div class="discover__card">
-        <span class="icon-container"><i class="ri-camera-lens-line"></i></span>
-        <h4>Plan 2 Ruedas</h4>
+        <span class="icon-container"><i class="ri-wallet-line"></i></span>
+        <h4>Plan Shadow</h4>
         <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
           <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Instalación gratis.
+            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Incluye todo lo del Plan Guardian
           </li>
           <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Equipo básico.
-          </li>
-          <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Acceso a la plataforma.
-          </li>
-          <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Mes de servicio activo incluido.
+            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Micrófono Espía
           </li>
         </ul>
       </div>
@@ -204,16 +184,17 @@
     <div style="margin-top: 30px;"></div>
 
     <div class="section__description">
-      <p class="poppins-text" class="section__description" style="font-weight: bold; font-size: 1.2rem; color: #0a0a0a;">
+      <p class="poppins-text section__description" style="font-weight: bold; font-size: 1.2rem; color: #f3f4f6;">
         No te preocupes, si decides no renovar el mes de servicio, tu vehículo seguirá funcionando sin problemas, pero
         perderás el acceso a las funciones de rastreo y control hasta que decidas renovar el servicio.
       </p>
     </div>
+    
   </section>
 
   <section class="section__container journey__container">
-    <h2 class="poppins-text" class="section__header">¿Cómo funciona nuestro servicio GPS?</h2>
-    <p class="poppins-text" class="section__description">
+    <h2 class="poppins-text section__header">¿Cómo funciona nuestro servicio GPS?</h2>
+    <p class="poppins-text section__description">
       Descubre cómo protegemos tu vehículo con tecnología avanzada
     </p>
     <div class="journey__grid">
@@ -231,7 +212,7 @@
           </p>
         </div>
       </div>
-
+  
       <div class="journey__card">
         <div class="journey__card__bg">
           <span><i class="ri-gps-line"></i></span> <!-- Cambié el ícono aquí -->
@@ -247,7 +228,7 @@
           </p>
         </div>
       </div>
-
+  
       <div class="journey__card">
         <div class="journey__card__bg">
           <span><i class="ri-device-line"></i></span> <!-- Ícono de dispositivo -->
@@ -257,54 +238,56 @@
           <span><i class="ri-device-line"></i></span> <!-- Ícono de dispositivo -->
           <h4>Planes Mensuales y Confianza</h4>
           <p>
-            Ofrecemos planes mensuales flexibles. Si decides no renovar, tu vehículo no se bloqueará y podrás seguir
+            Ofrecemos planes mensuales y anuales flexibles. Si decides no renovar, tu vehículo no se bloqueará y podrás seguir
             usándolo sin problemas.
           </p>
         </div>
       </div>
-
-
-
     </div>
   </section>
-
+  
+  <div class="banner__container">
+    <img src="assets/banner.jpg" alt="Promoción GPS">
+  </div>
   <section class="section__container showcase__container" id="package">
     <div class="showcase__image">
       <img src="assets/showcase.jpg" alt="showcase" />
     </div>
     <div class="showcase__content">
-      <h4 style="font-family: 'Carving', sans-serif;" >TECNOLOGÍA GPS PARA LA SEGURIDAD DE TU VEHÍCULO</h4>
+      <h4 style="font-family: 'Carving', sans-serif;">TECNOLOGÍA GPS PARA LA SEGURIDAD DE TU VEHÍCULO</h4>
       <p class="poppins-text">
-        En PMM GPS, nos especializamos en ofrecer soluciones GPS
+        En SyncTrack GPS, nos especializamos en ofrecer soluciones GPS
         confiables para automóviles, motos y camiones. Nuestros servicios incluyen
-        el Plan Común, con rastreo y bloqueo del motor, y el Plan Avanzado,
-        que añade micrófono, control de puertas y más. Protege lo que más
+        el Plan Sentinel, con rastreo y bloqueo del motor; el Plan Guardian,
+        que añade un botón de pánico; y el Plan Shadow, que incluye todo lo de los otros planes, añadiendo al combo un micrófono para escuchar dentro del vehículo, perfecto para saber qué pasa dentro de nuestro auto. Protege lo que más
         importa con nuestra tecnología de última generación.
       </p>
-      <p class="poppins-text" >
+      <p class="poppins-text">
         Imagina tener el poder de proteger tu vehículo desde donde estés.
         Con nuestros sistemas GPS, no solo sabrás la ubicación exacta de
         tu auto, sino que podrás tomar el control total: bloquear el motor,
-        escuchar lo que pasa dentro o abrir y cerrar puertas de forma remota.
+        escuchar lo que pasa dentro del vehículo, botón de pánico, acceder y ver tu vehículo mediante nuestra aplicación.
         No esperes más para darle a tu vehículo la protección que merece.
         ¡Tu tranquilidad está a un clic!
       </p>
       <div class="showcase__btn">
-        <a href="https://wa.me/0987654321?text=Hola,%20quiero%20más%20información%20sobre%20los%20servicios%20y%20planes."
+        <a href="https://wa.me/0991828721?text=Hola,%20quiero%20más%20información%20sobre%20los%20servicios%20y%20planes."
           target="_blank"
           style="display: inline-flex; align-items: center; background-color: #25D366; color: white; font-size: 16px; padding: 10px 20px; border-radius: 5px; text-decoration: none; text-align: center;">
           <i class="ri-whatsapp-line" style="font-size: 24px; margin-right: 10px;"></i> Cotiza Ahora
         </a>
       </div>
     </div>
+    
   </section>
 
   <section class="section__container client__container">
-    <h2 class="poppins-text" class="poppins-text" class="section__header">AL CONTRATAR NUESTROS SERVICIOS RECIBES</h2>
-    <p class="poppins-text" class="poppins-text" class="section__description">
-      Garantía y mantenimiento, tecnología GPS de alta calidad y planes accesibles
-      con pagos mensuales para un servicio sin preocupaciones.
-    </p>
+    <h2 class="poppins-text section__header">AL CONTRATAR NUESTROS SERVICIOS RECIBES</h2>
+<p class="poppins-text section__description">
+  Garantía y mantenimiento, tecnología GPS de alta calidad y planes accesibles
+  con pagos mensuales o un solo pago anual para un servicio sin preocupaciones durante un año.
+</p>
+
     <!-- Slider main container -->
     <div class="swiper">
       <!-- Additional required wrapper -->
@@ -360,7 +343,7 @@
               </p>
             </div>
             <div class="client__details">
-              <img src="assets/client-2.jpg" alt="client" />
+              <img src="assets/client-5.jpg" alt="client" />
               <div>
                 <h4 class="poppins-text">Tecnología GPS de Alta Calidad</h4>
               </div>
@@ -413,28 +396,28 @@
     <br>
     <br>
 
-    <div class="header__container" style="display: flex; justify-content: space-between; align-items: center;">
-      <div class="header__image" style="flex: 1;">
-        <img src="assets/showcase2.jpg" alt="header" style="width: 100%; height: auto;">
+    <div class="header__container">
+      <div class="header__image">
+        <img src="assets/showcase2.jpg" alt="header">
       </div>
-      <div class="showcase__content" style="flex: 1; padding-left: 20px; margin-top: 20px;">
-        <!-- Aquí agregamos margin-top -->
-        <p style="margin-bottom: 15px; font-size: 1rem;">
-          Elige el plan que se adapta a tus necesidades y disfruta de lo mejor en tecnología GPS.
-        </p>
-
-        <h2 class="poppins-text" style="font-size: 2rem; margin-bottom: 15px;">
+      
+      <div class="showcase__content">
+        <br>
+        <p>Elige el plan que se adapta a tus necesidades y disfruta de lo mejor en tecnología GPS.</p>
+    
+        <h2 class="poppins-text">
           <span style="color: black;">Planes Flexibles</span>
-          <span style="color: #4b7bec;">y Accesibles para Ti</span> <!-- Azul marino claro -->
+          <span style="color: #4b7bec;">y Accesibles para Ti</span>
         </h2>
-
+    
         <div class="showcase__content" style="margin-bottom: 20px;">
           <div class="section__description">
-            <p class="poppins-text" class="section__description"
-              style="font-weight: bold; font-size: 1.2rem; color: #0a0a0a; margin-bottom: 20px;">
-              Contrata nuestros servicios con los mejores precios
-              en servicios de rastreo satelital en el Ecuador.
-            </p>
+            <p class="poppins-text section__description"
+  style="font-weight: bold; font-size: 1.2rem; color: #f3f4f6; margin-bottom: 20px;">
+  Contrata nuestros servicios con los mejores precios
+  en servicios de rastreo satelital en el Ecuador.
+</p>
+
           </div>
         </div>
 
@@ -442,13 +425,13 @@
           <a href="https://wa.me/0991828721?text=Quiero%20saber%20información%20del%20servicio%20GPS" target="_blank">
             <button
               style="background-color: #00bfae; color: white; border: 2px solid #00bfae; padding: 10px 20px; font-size: 16px; border-radius: 5px;">
-              Cotiza ahora
+              "Quiero Saber sobre los planes"
             </button>
           </a>
         </div>
       </div>
-
     </div>
+    
 
   </section>
   <section class="section__container client__container">
@@ -459,23 +442,21 @@
         <div class="choose__card">
           <span><i class="ri-customer-service-line"></i></span>
           <div>
-            <h4 >¿Cómo funciona el botón de emergencia?</h4>
-            <p>Al presionar el botón de pánico, se envían alertas a los contactos programados y, con el servicio
-              Premium, también se ofrece asistencia directa desde nuestra central.</p>
+            <h4 >¿Cómo funciona el botón de pánico?</h4>
+            <p>Al presionar el botón de pánico, se envía una alerta a tu contacto, también se ofrece asistencia directa desde nuestra central.</p>
           </div>
         </div>
         <div class="choose__card">
-          <span><i class="ri-map-pin-line"></i></span>
+          <span><i class="ri-gps-line"></i></span>
           <div>
             <h4>¿Qué sucede si se corta la corriente del GPS?</h4>
             <p>
-              El dispositivo cuenta con una batería interna que permite su funcionamiento durante varios días y envía
-              una alerta cuando la energía se interrumpe.
+              El dispositivo cuenta con una batería interna que permite su funcionamiento para recuperación del vehículo, además de enviar una alerta cuando la energía se interrumpe.
             </p>
           </div>
         </div>
         <div class="choose__card">
-          <span><i class="ri-wallet-line"></i></span>
+          <span><i class="ri-map-pin-line"></i></span>
           <div>
             <h4>¿Puedo monitorear mi vehículo en tiempo real?</h4>
             <p>Sí, podrás ver la ubicación de tu vehículo en tiempo real a través de nuestra app o plataforma web, con
@@ -483,7 +464,7 @@
           </div>
         </div>
         <div class="choose__card">
-          <span><i class="ri-user-star-line"></i></span>
+          <span><i class="ri-wallet-line"></i></span>
           <div>
             <h4>¿Por qué hay un costo mensual si el GPS es gratuito?</h4>
             <p>El costo cubre el desarrollo y mantenimiento de la plataforma, el plan de datos del GPS, licencias, mapas
@@ -491,19 +472,17 @@
           </div>
         </div>
         <div class="choose__card">
-          <span><i class="ri-verified-badge-line"></i></span>
+          <span><i class="ri-lock-line"></i></span>
           <div>
-            <h4>¿Los bloqueadores de señal afectan el rastreo?</h4>
-            <p>Nuestros dispositivos tienen tecnología antijamming que les permite seguir funcionando incluso si se
-              detecta un bloqueador de señal.</p>
+            <h4>¿Qué significa "Bloquear el Vehículo"?</h4>
+            <p>Significa apagar el motor de forma remota ante emergencias, evitando la perdida de tu inversion.</p>
           </div>
         </div>
         <div class="choose__card">
-          <span><i class="ri-calendar-close-line"></i></span>
+          <span><i class="ri-mic-line"></i></span>
           <div>
-            <h4>¿Qué diferencias hay entre los planes?</h4>
-            <p>El plan básico incluye rastreo y bloqueo, mientras que el avanzado agrega micrófono y control remoto de
-              puertas.</p>
+            <h4>¿El micrófono espía se escucha en tiempo real?</h4>
+            <p>Si, puedes escuchar en tiempo real lo que ocurre dentro del vehículo.</p>
           </div>
         </div>
       </div>
@@ -517,7 +496,7 @@
       style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
       <!-- Logo y descripción -->
       <div class="footer__logo">
-        <a href="#" class="logo" style="font-size: 24px; font-weight: bold; text-decoration: none;">PMM</a>
+        <a href="#" class="logo" style="font-size: 24px; font-weight: bold; text-decoration: none;">SyncTrack GPS</a>
       </div>
       <p style="max-width: 600px; margin: 0 auto;">
         "Tu tranquilidad, nuestra prioridad: Soluciones GPS confiables para automóviles, camiones y motos."
@@ -528,11 +507,11 @@
         <div class="footer__links"
           style="display: flex; justify-content: center; gap: 20px; align-items: center; flex-wrap: wrap;">
           <a href="#" style="text-decoration: none; color: #333; display: flex; align-items: center;">
-            <span style="margin-right: 5px;"><i class="ri-phone-fill"></i></span> 0987654321
+            <span style="margin-right: 5px;"><i class="ri-phone-fill"></i></span> 0991828721
           </a>
-          <a href="mailto:pmmgps_soluction@outlook.com"
+          <a href="mailto:SyncTrackgps_soluction@outlook.com"
             style="text-decoration: none; color: #333; display: flex; align-items: center;">
-            <span style="margin-right: 5px;"><i class="ri-mail-fill"></i></span> pmmgps_soluction@outlook.com
+            <span style="margin-right: 5px;"><i class="ri-mail-fill"></i></span> SyncTrackgps_soluction@outlook.com
           </a>
           <a href="#" style="text-decoration: none; color: #333; display: flex; align-items: center;">
             <span style="margin-right: 5px;"><i class="ri-map-pin-2-fill"></i></span> El Oro, Ecuador
@@ -558,7 +537,7 @@
 
     <!-- Barra inferior -->
     <div class="footer__bar" style="margin-top: 20px; font-size: 14px; color: #777;">
-      Copyright © 2024 Web Design Mastery. All rights reserved.
+      Copyright © 2025 Diseño Web a toda Honra. Cuidado Derechos reservados.
     </div>
   </footer>
 
