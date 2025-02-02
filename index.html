@@ -2,29 +2,50 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Inicio - Portal SyncTrack GPS</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
   <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   <link rel="stylesheet" href="floating-wpp.css">
   <script type="text/javascript" src="floating-wpp.js"></script>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <title>Portal de SyncTrack GPS | SyncTrack GPS</title>
-
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
   <div id="myButton"></div>
+
+  <!-- =======================================================
+  * Template Name: Logis
+  * Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-<body>
+<body class="index-page">
   <script type="text/javascript">
     $(function () {
       $('#myButton').floatingWhatsApp({
-        phone: '593991828721',
+        phone: '593996295391',
         popupMessage: 'Bienvenido a SyncTrack GPS, en que podemos ayudarte?',
         message: "Deseo Información, sobre los planes Disponibles para Gps, de Antemano muy amable.",
         showPopup: true,
@@ -36,528 +57,782 @@
       });
     });
   </script>
-  <nav>
-    <div class="nav__header">
-      <div class="nav__logo">
-        <a href="#" class="logo">
-          <img src="assets/logo.png" alt="SyncTrack GPS">
-        </a>
-      </div>
-      <div class="nav__menu__btn" id="menu-btn">
-        <i class="ri-menu-line"></i>
-      </div>
-    </div>
-    <ul class="nav__links" id="nav-links">
-      <li><a href="#home">Inicio</a></li>
-      <li><a href="#Servicios">Servicios</a></li>
-      <li><a href="#package">Nosotros</a></li>
-      <li><a href="#contact">Contactos</a></li>
-    </ul>
-  </nav>
 
-  <header id="home">
-    <div class="header__container">
-      <div class="header__content">
-        <h2 style="font-family: 'Carving', sans-serif;">¡Mantén el control de tu vehículo en todo momento con nuestra
-        </h2>
-        <h1>Tecnología GPS avanzada!</h1>
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      </div>
-      <div class="header2__image">
-        <img src="assets/header.png" alt="header2" />
-      </div>
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.png" alt=""> 
+        <!-- <h1 class="sitename">SyncTrack</h1> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Inicio<br></a></li>
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#pricing">Planes GPS</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li><a href="#footer">Contactos</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="https://wa.me/593996295391?text=Hola%2C%20quiero%20más%20información%20sobre%20el%20servicio" target="_blank">Cotiza Ahora</a>
+
+
     </div>
   </header>
 
-  <section class="section__container destination__container" id="about">
-    <h2 class="poppins-text section__header">¡Protege lo que más importa!<br>Contáctanos hoy mismo.</h2>
-    <p class="poppins-text section__description" style="color: #f3f4f6;">
-      "Tu tranquilidad, nuestra prioridad: Soluciones GPS confiables para automóviles, camiones y motos."
-    </p>
+  <main class="main">
 
-    <div class="destination__grid">
-      <div class="destination__card">
-        <img src="assets/destination-1.jpg" alt="destination" />
-        <div class="destination__card__details">
-          <div>
-            <h4>Monitoreo en tiempo real</h4>
-            <p>Rastrea tu vehículo a través de nuestra App</p>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
 
-          </div>
-          <!--<div class="destination__rating">
-              <span><i class="ri-star-fill"></i></span>
-              4.7
-            </div>-->
-        </div>
-      </div>
-      <div class="destination__card">
-        <img src="assets/destination-2.jpg" alt="destination" />
-        <div class="destination__card__details">
-          <div>
-            <h4>Rastreo y Bloqueo</h4>
-            <p>Localiza tu vehículo y bloquea su motor fácilmente; escucha y controla las puertas con tecnología
-              premium.</p>
-          </div>
-          <!--<div class="destination__rating">
-              <span><i class="ri-star-fill"></i></span>
-              4.5
-            </div>-->
-        </div>
-      </div>
-      <div class="destination__card">
-        <img src="assets/destination-3.jpg" alt="destination" />
-        <div class="destination__card__details">
-          <div>
-            <h4>Plataforma Ilimitada</h4>
-            <p>Monitorea en todo momento desde tu PC o móvil con nuestras plataformas y aplicaciones avanzadas</p>
-          </div>
-          <!--<div class="destination__rating">
-              <span><i class="ri-star-fill"></i></span>
-              4.8
-            </div>-->
-        </div>
-      </div>
-    </div>
-  </section>
+      <img src="assets/img/world-dotted-map.png" alt="" class="hero-bg" data-aos="fade-in" style="opacity: 0.3;">
 
-  <div class="banner__container">
-    <img src="assets/banner.jpg" alt="Promoción GPS">
-  </div>
-  <section class="section__container discover__container" id="Servicios">
-    <h2 class="poppins-text" class="section__header">PLANES DEL SERVICIO GPS</h2>
-    <br>
-    <p class="poppins-text section__description" STY>
-      ¿Listo para proteger tu vehículo?<br>
-      <span style="font-weight: bold; font-size: 28px; color: #f3f4f6;">Conoce los planes disponibles</span>
-    </p>
+      <div class="container">
+        <div class="row gy-4 d-flex justify-content-between">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h2 data-aos="fade-up">Servicio de GPS</h2>
+            <p data-aos="fade-up" data-aos-delay="100">¡Mantén el control de tu vehículo en todo momento con nuestra Tecnología GPS avanzada!</p>
 
+            <!-- <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
+              <input type="text" class="form-control" placeholder="Your ZIP code or City. e.g. New York">
+              <button type="submit" class="btn btn-primary">Search</button>
+            </form>
 
+            <div class="row gy-4" data-aos="fade-up" data-aos-delay="300">
 
-    <div class="discover__grid">
-      <div class="discover__card">
-        <span><i class="ri-wallet-line"></i></span>
-        <h4>Plan Sentinel</h4>
-        <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
-          <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Instalación gratis
-          </li>
-          <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Equipo GPS
-          </li>
-          <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Apagado Remoto de Vehículo
-          </li>
-          <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Renovación Mensual o Anual
-          </li>
-          <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Acceso a la plataforma
-          </li>
-          <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Aplicación Android para control total
-          </li>
-        </ul>
-
-      </div>
-      <div class="discover__card">
-        <span><i class="ri-wallet-line"></i></span>
-        <h4>Plan Guardian</h4>
-        <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
-          <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Incluye todo lo del Plan Sentinel
-          </li>
-          <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Botón de pánico
-          </li>
-        </ul>
-      </div>
-
-      <div class="discover__card">
-        <span class="icon-container"><i class="ri-wallet-line"></i></span>
-        <h4>Plan Shadow</h4>
-        <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
-          <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Incluye todo lo del Plan Guardian
-          </li>
-          <li style="text-align: left; margin: 0;">
-            <i class="ri-check-line" style="color: green; margin-right: 8px;"></i> Micrófono Espía
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div style="margin-top: 30px;"></div>
-
-    <div class="section__description">
-      <p class="poppins-text section__description" style="font-weight: bold; font-size: 1.2rem; color: #f3f4f6;">
-        No te preocupes, si decides no renovar el mes de servicio, tu vehículo seguirá funcionando sin problemas, pero
-        perderás el acceso a las funciones de rastreo y control hasta que decidas renovar el servicio.
-      </p>
-    </div>
-  </section>
-
-  <section class="section__container journey__container">
-    <h2 class="poppins-text section__header">¿Cómo funciona nuestro servicio GPS?</h2>
-    <p class="poppins-text section__description" style="color: #f3f4f6;">
-      Descubre cómo protegemos tu vehículo con tecnología avanzada
-    </p>
-    <div class="journey__grid">
-      <div class="journey__card">
-        <div class="journey__card__bg">
-          <span><i class="ri-settings-2-line"></i></span> <!-- Cambié el ícono aquí -->
-          <h4>Instalación</h4>
-        </div>
-        <div class="journey__card__content">
-          <span><i class="ri-settings-2-line"></i></span> <!-- Cambié el ícono aquí también -->
-          <h4>"Instalación Rápida y Segura"</h4>
-          <p>
-            Instalamos tu dispositivo GPS de manera rápida y segura, sin complicaciones y garantizando el correcto
-            funcionamiento desde el primer momento.
-          </p>
-        </div>
-      </div>
-
-      <div class="journey__card">
-        <div class="journey__card__bg">
-          <span><i class="ri-gps-line"></i></span> <!-- Cambié el ícono aquí -->
-          <h4>Dispositivo</h4>
-        </div>
-        <div class="journey__card__content">
-          <span><i class="ri-gps-line"></i></span> <!-- Cambié el ícono aquí también -->
-          <h4>"Cómo Funciona el GPS"</h4>
-          <p>
-            Cobertura Global,
-            Monitorea tu vehículo en tiempo real desde cualquier dispositivo, con actualizaciones constantes sobre
-            ubicación, velocidad y alertas personalizadas para mayor seguridad.
-          </p>
-        </div>
-      </div>
-
-      <div class="journey__card">
-        <div class="journey__card__bg">
-          <span><i class="ri-device-line"></i></span> <!-- Ícono de dispositivo -->
-          <h4>Servicio</h4>
-        </div>
-        <div class="journey__card__content">
-          <span><i class="ri-device-line"></i></span> <!-- Ícono de dispositivo -->
-          <h4>Planes Mensuales y Confianza</h4>
-          <p>
-            Ofrecemos planes mensuales y anuales flexibles. Si decides no renovar, tu vehículo no se bloqueará y podrás
-            seguir
-            usándolo sin problemas.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <div class="banner__container">
-    <img src="assets/banner2.jpg" alt="Promoción GPS">
-  </div>
-  <section class="section__container showcase__container" id="package">
-    <div class="showcase__image">
-      <img src="assets/showcase.jpg" alt="showcase" />
-    </div>
-    <div class="showcase__content">
-      <h4 style="font-family: 'Carving', sans-serif;">TECNOLOGÍA GPS PARA LA SEGURIDAD DE TU VEHÍCULO</h4>
-      <p class="poppins-text">
-        En SyncTrack GPS, nos especializamos en ofrecer soluciones GPS
-        confiables para automóviles, motos y camiones. Nuestros servicios incluyen
-        el Plan Sentinel, con rastreo y bloqueo del motor; el Plan Guardian,
-        que añade un botón de pánico; y el Plan Shadow, que incluye todo lo de los otros planes, añadiendo al combo un
-        micrófono para escuchar dentro del vehículo, perfecto para saber qué pasa dentro de nuestro auto. Protege lo que
-        más
-        importa con nuestra tecnología de última generación.
-      </p>
-      <p class="poppins-text">
-        Imagina tener el poder de proteger tu vehículo desde donde estés.
-        Con nuestros sistemas GPS, no solo sabrás la ubicación exacta de
-        tu auto, sino que podrás tomar el control total: bloquear el motor,
-        escuchar lo que pasa dentro del vehículo, botón de pánico, acceder y ver tu vehículo mediante nuestra
-        aplicación.
-        No esperes más para darle a tu vehículo la protección que merece.
-        ¡Tu tranquilidad está a un clic!
-      </p>
-      <div class="showcase__btn">
-        <a href="https://wa.me/+593991828721?text=Hola,%20quiero%20más%20información%20sobre%20los%20servicios%20y%20planes."
-          target="_blank"
-          style="display: inline-flex; align-items: center; background-color: #25D366; color: white; font-size: 16px; padding: 10px 20px; border-radius: 5px; text-decoration: none; text-align: center;">
-          <i class="ri-whatsapp-line" style="font-size: 24px; margin-right: 10px;"></i> Cotiza Ahora
-        </a>
-      </div>
-    </div>
-
-  </section>
-
-  <section class="section__container client__container">
-    <h2 class="poppins-text section__header">AL CONTRATAR NUESTROS SERVICIOS RECIBES</h2>
-    <br>
-    <p class="poppins-text section__description" style="color: #f3f4f6;">
-      Garantía y mantenimiento, tecnología GPS de alta calidad y planes accesibles
-      con pagos mensuales o un solo pago anual para un servicio sin preocupaciones durante un año.
-    </p>
-
-    <!-- Slider main container -->
-    <div class="swiper">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">
-          <div class="client__card">
-            <div class="client__content">
-              <p class="poppins-text">
-                ¡Elige el plan que mejor se ajuste a tu presupuesto y mantén tu
-                vehículo siempre conectado!
-                Ya sea que necesites un servicio básico o uno más avanzado, nuestros planes están
-                diseñados para brindarte el mejor valor sin comprometer la calidad.
-              </p>
-            </div>
-            <div class="client__details">
-              <img src="assets/client-1.jpg" alt="client" />
-              <div>
-                <h4 class="poppins-text">Planes Accesibles para Todos</h4>
-
+              <div class="col-lg-3 col-6">
+                <div class="stats-item text-center w-100 h-100">
+                  <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="0" class="purecounter">232</span>
+                  <p>Clients</p>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="client__card">
-            <div class="client__content">
-              <p class="poppins-text">
-                En nuestra empresa, apostamos por la innovación.
-                Utilizamos tecnología GPS de la más alta calidad,
-                lo que garantiza una precisión y fiabilidad excepcionales.
-                Nuestros dispositivos están diseñados para ofrecerte el mejor
-                rendimiento, asegurando que puedas confiar en la ubicación de
-                tu vehículo en todo momento.
-              </p>
-            </div>
-            <div class="client__details">
-              <img src="assets/client-2.jpg" alt="client" />
-              <div>
-                <h4 class="poppins-text">Plataforma de Monitoreo</h4>
+
+              <div class="col-lg-3 col-6">
+                <div class="stats-item text-center w-100 h-100">
+                  <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="0" class="purecounter">521</span>
+                  <p>Projects</p>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="client__card">
-            <div class="client__content">
-              <p class="poppins-text">
-                Accede fácilmente a nuestra plataforma desde tu PC o móvil
-                y monitorea todo en tiempo real, cuando y donde lo necesites.
-                Diseñada con tecnología de punta, te ofrecemos una experiencia
-                simple, confiable y siempre disponible.
-              </p>
-            </div>
-            <div class="client__details">
-              <img src="assets/client-5.jpg" alt="client" />
-              <div>
-                <h4 class="poppins-text">Tecnología GPS de Alta Calidad</h4>
+
+              <div class="col-lg-3 col-6">
+                <div class="stats-item text-center w-100 h-100">
+                  <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="0" class="purecounter">1453</span>
+                  <p>Support</p>
+                </div>
               </div>
+
+              <div class="col-lg-3 col-6">
+                <div class="stats-item text-center w-100 h-100">
+                  <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="0" class="purecounter">32</span>
+                  <p>Workers</p>
+                </div>
+              </div> -->
+
             </div>
+
           </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="client__card">
-            <div class="client__content">
-              <p class="poppins-text">
-                Con nuestra garantía, puedes estar tranquilo.
-                Ofrecemos un servicio de mantenimiento completo
-                para asegurarnos de que tu sistema GPS funcione de
-                manera óptima durante todo el tiempo. Nuestro compromiso
-                es brindarte asistencia técnica siempre que lo necesites,
-                con revisiones periódicas para mantener tu dispositivo
-                actualizado y en perfecto estado.
-              </p>
-            </div>
-            <div class="client__details">
-              <img src="assets/client-3.jpg" alt="client" />
-              <div>
-                <h4 class="poppins-text">Garantía y Servicio de Mantenimiento</h4>
-              </div>
-            </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+            <img src="assets/img/header.png" class="img-fluid mb-3 mb-lg-0" alt="">
           </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="client__card">
-            <div class="client__content">
-              <p class="poppins-text">
-                Nuestro equipo está formado por expertos altamente capacitados,
-                con años de experiencia en el sector. Nuestros técnicos
-                están preparados para resolver cualquier duda y brindarte
-                soluciones personalizadas. Están al día con los avances más
-                recientes, lo que nos permite ofrecerte un servicio de calidad
-                y eficiencia sin igual.
-              </p>
-            </div>
-            <div class="client__details">
-              <img src="assets/client-4.jpg" alt="client" />
-              <div>
-                <h4 class="poppins-text">Los Mejores Técnicos en el Campo</h4>
-              </div>
-            </div>
-          </div>
+
         </div>
       </div>
-    </div>
-    <br>
-    <br>
 
-    <div class="header__container">
-      <div class="header__image">
-        <img src="assets/showcase2.jpg" alt="header">
+    </section><!-- /Hero Section -->
+
+    <!-- Featured Services Section -->
+    <section id="featured-services" class="featured-services section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="fa-solid fa-users"></i></div>
+            <div>
+              <h4 class="title">Protege lo que amas</h4>
+              <p class="description">Tu familia y tu vehículo, completamente protegidos</p>
+              <!-- <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a> -->
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="fa-solid fa-triangle-exclamation"></i></div>
+            <div>
+              <h4 class="title">Evita riesgos</h4>
+              <p class="description">Controla lo que sucede con tu vehículo y tu familia, estés donde estés. Mantén la seguridad siempre a tu alcance</p>
+              <!-- <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a> -->
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"><i class="fa-solid fa-car"></i> <i class="fa-solid fa-shield"></i></div>
+            <div>
+              <h4 class="title">Protección garantizada</h4>
+              <p class="description">Con nuestra experiencia en recuperación a nivel nacional, te brindamos seguridad y acceso al historial de recorridos de tu vehículo, para que siempre estés informado.</p>
+              <!-- <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a> -->
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
       </div>
 
-      <div class="showcase__content">
-        <br>
-        <p>Elige el plan que se adapta a tus necesidades y disfruta de lo mejor en tecnología GPS.</p>
+    </section><!-- /Featured Services Section -->
 
-        <h2 class="poppins-text">
-          <span style="color: black;">Planes Flexibles</span>
-          <span style="color: #4b7bec;">y Accesibles para Ti</span>
-        </h2>
+    <!-- About Section -->
+    <section id="about" class="about section">
 
-        <div class="showcase__content" style="margin-bottom: 20px;">
-          <div class="section__description">
-            <p class="poppins-text section__description"
-              style="font-weight: bold; font-size: 1.2rem; color: #f3f4f6; margin-bottom: 20px;">
-              Contrata nuestros servicios con los mejores precios
-              en servicios de rastreo satelital en el Ecuador.
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 position-relative align-self-start order-lg-last order-first" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a> -->
+          </div>
+
+          <div class="col-lg-6 content order-last  order-lg-first" data-aos="fade-up" data-aos-delay="100">
+            <h3>Acerca de Nosotros</h3>
+            <p style="text-align: justify;">
+              En SyncTrack GPS, nos especializamos en ofrecer soluciones GPS confiables para automóviles, motos y camiones. Nuestros servicios garantizan la seguridad y el control total de tu vehículo en todo momento.
             </p>
-
+            <ul>
+              <li>
+                <i class="bi bi-geo-alt"></i>
+                <div>
+                  <h5>Protección total con tecnología avanzada</h5>
+                  <p style="text-align: justify;">Con nuestros planes exclusivos, tienes el control absoluto sobre la seguridad de tu auto: el Plan Sentinel ofrece rastreo en tiempo real y bloqueo del motor; el Plan Guardian añade un botón de pánico para emergencias; y el Plan Shadow incluye todo lo anterior, más un micrófono para escuchar dentro del vehículo.</p>
+                </div>
+              </li>
+              <li>
+                <i class="bi bi-shield"></i>
+                <div>
+                  <h5>Seguridad a tu alcance</h5>
+                  <p style="text-align: justify;">Imagina poder proteger tu vehículo sin importar dónde estés. Con SyncTrack GPS, accede a la ubicación en tiempo real, bloquea el motor y mantente informado con nuestra innovadora tecnología.</p>
+                </div>
+              </li>
+              <li>
+                <i class="bi bi-wrench"></i>
+                <div>
+                  <h5>Garantía y Mantenimiento</h5>
+                  <p style="text-align: justify;">Disfruta de un servicio de mantenimiento completo para que tu GPS funcione siempre a la perfección. Con asistencia técnica y revisiones periódicas, garantizamos su óptimo rendimiento en todo momento. </p>
+                </div>
+              </li>
+            </ul>
           </div>
+
         </div>
 
-        <div style="margin-top: 20px; display: flex; justify-content: center; align-items: center;">
-          <a href="https://wa.me/+593991828721?text=Quiero%20saber%20información%20del%20servicio%20GPS"
-            target="_blank">
-            <button
-              style="background-color: #00bfae; color: white; border: 2px solid #00bfae; padding: 10px 20px; font-size: 16px; border-radius: 5px;">
-              "Quiero Saber sobre los planes"
-            </button>
-          </a>
-        </div>
       </div>
-    </div>
 
+    </section><!-- /About Section -->
 
-  </section>
-  <section class="section__container client__container">
-    <div class="choose__content">
-      <h2 class="section__header" style="text-align: center;">Preguntas Frecuentes</h2>
+    <!-- Services Section -->
+    <section id="services" class="services section">
 
-      <div class="choose__grid">
-        <div class="choose__card">
-          <span><i class="ri-customer-service-line"></i></span>
-          <div>
-            <h4>¿Cómo funciona el botón de pánico?</h4>
-            <p>Al presionar el botón de pánico, se envía una alerta a tu contacto, también se ofrece asistencia directa
-              desde nuestra central.</p>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span>Our Services<br></span>
+        <h2>Nuestros Servicios</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/service-1.jpg" alt="" class="img-fluid">
+              </div>
+              <h3>Monitoreo en tiempo real</h3>
+              <p style="text-align: justify;">Rastrea tu vehículo a través de nuestra App</p>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/service-2.jpg" alt="" class="img-fluid">
+              </div>
+              <h3><a class="stretched-link">Rastreo y Bloqueo</a></h3>
+              <p style="text-align: justify;">Localiza tu vehículo y bloquea su motor fácilmente; escucha y controla las puertas con tecnología premium.</p>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/service-3.jpg" alt="" class="img-fluid">
+              </div>
+              <h3><a  class="stretched-link">Plataforma Ilimitada</a></h3>
+              <p style="text-align: justify;">Monitorea en todo momento desde tu PC o móvil con nuestras plataformas y aplicaciones avanzadas</p>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/service-4.jpg" alt="" class="img-fluid">
+              </div>
+              <h3><a class="stretched-link">Instalación Rápida y Segura</a></h3>
+              <p style="text-align: justify;">Instalamos tu dispositivo GPS de manera rápida y segura, sin complicaciones y garantizando el correcto funcionamiento desde el primer momento.</p>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/service-5.jpg" alt="" class="img-fluid">
+              </div>
+              <h3><a class="stretched-link">Dispositivos GPS Ultima Generación</a></h3>
+              <p style="text-align: justify;">Cobertura Global, Monitorea tu vehículo en tiempo real desde cualquier dispositivo, con actualizaciones constantes sobre ubicación, velocidad y alertas personalizadas para mayor seguridad.</p>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/service-6.jpg" alt="" class="img-fluid">
+              </div>
+              <h3><a class="stretched-link">Planes Mensuales y Confianza</a></h3>
+              <p style="text-align: justify;">Ofrecemos planes mensuales y anuales flexibles. Si decides no renovar, tu vehículo no se bloqueará y podrás seguir usándolo sin problemas.</p>
+            </div>
+          </div><!-- End Card Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" >
+<!-- 
+      <img src="assets/img/cta-bg.jpg" alt="">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Call To Action</h3>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a class="cta-btn" href="#">Call To Action</a>
+            </div>
           </div>
         </div>
-        <div class="choose__card">
-          <span><i class="ri-gps-line"></i></span>
-          <div>
-            <h4>¿Qué sucede si se corta la corriente del GPS?</h4>
-            <p>
-              El dispositivo cuenta con una batería interna que permite su funcionamiento para recuperación del
-              vehículo, además de enviar una alerta cuando la energía se interrumpe.
+      </div> -->
+      <div class="banner__container">
+        <img src="assets/img/cta-bg.jpg" alt="Promoción GPS">
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span>Protege tu vehículo con nuestros beneficios exclusivos</span>
+        <h2>Protege tu vehículo con nuestros beneficios exclusivos</h2>
+        <p style="text-align: justify;">Contrata nuestros planes y accede a funciones como notificaciones en tiempo real, geocercas, análisis de recorridos, el botón de pánico para emergencias, y mucho mas. Todo lo que necesitas para mantener tu vehículo seguro y bajo control.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
+            <img src="assets/img/features-4.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
+            <h3>¿Qué pasa si no renuevo?</h3>
+            <!-- <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p> -->
+            <p style="text-align: justify;">
+              Si decides no renovar el servicio, tu vehículo seguirá funcionando normalmente, pero perderás el acceso a las funciones de rastreo y control, como la geolocalización en tiempo real y las alertas. Estas funciones se reactivarán tan pronto como decidas renovar el servicio, asegurando que siempre puedas tener el control completo de tu vehículo.
             </p>
           </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/img/features-1.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+            <h3>Crea Geocercas, y recibe notificaciones</h3>
+            <p class="fst-italic" style="text-align: justify;">
+              Define zonas de seguridad alrededor de tu vehículo y mantén el control total. Con nuestras geocercas, recibirás alertas instantáneas cada vez que tu vehículo entre o salga de estas áreas preestablecidas, garantizando una protección adicional y un monitoreo constante de su ubicación.
+            </p>
+            <!-- <ul>
+              <li><i class="bi bi-check"></i><span> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+              <li><i class="bi bi-check"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+              <li><i class="bi bi-check"></i> <span>Ullam est qui quos consequatur eos accusamus.</span></li>
+            </ul> -->
+          </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/features-2.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
+            <h3>Visualiza y analiza recorridos</h3>
+            <!-- <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p> -->
+            <p style="text-align: justify;">
+              Con nuestra plataforma, podrás revisar rutas completas de desplazamiento, permitiéndote analizar cada trayecto de tu vehículo. Obtén detalles precisos sobre las rutas tomadas y evalúa su eficiencia, asegurando el mejor uso de los recursos y una mayor seguridad en cada desplazamiento.
+            </p>
+          </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
+            <img src="assets/img/features-3.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7" data-aos="fade-up">
+            <h3>
+              Notificaciones en tiempo real</h3>
+            <p style="text-align: justify;">Mantente informado al instante sobre el estado de tu vehículo con alertas en tiempo real. Recibe notificaciones sobre cualquier cambio importante, como el encendido del motor, el movimiento del vehículo o si entra o sale de las zonas de seguridad que has definido, asegurando que siempre estés al tanto de lo que sucede.</p>
+            <!-- <ul>
+              <li><i class="bi bi-check"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+              <li><i class="bi bi-check"></i><span> Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+              <li><i class="bi bi-check"></i> <span>Facilis ut et voluptatem aperiam. Autem soluta ad fugiat</span>.</li>
+            </ul> -->
+            <h3>
+              Botón de pánico – Ayuda inmediata</h3>
+            <p style="text-align: justify;">En caso de emergencia, el botón de pánico te permite enviar una alerta inmediata, notificando a tus contactos y a nuestro equipo para que podamos coordinar el apoyo necesario. A través de nuestro servicio, podemos notificar a las autoridades y asegurar que recibas la ayuda de la policía en el menor tiempo posible. Tu seguridad es nuestra prioridad.</p>
+            
+          </div>
+        </div><!-- Features Item -->
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span>Pricing</span>
+        <h2>PLANES DEL SERVICIO GPS</h2>
+        <p>¿Listo para proteger tu vehículo?
+          Conoce los planes disponibles</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Plan Sentinel</h3>
+              <h4><sup></sup><span> Mensual / Anual</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Instalación gratis</span></li>
+                <li><i class="bi bi-check"></i> <span>Equipo GPS</span></li>
+                <li><i class="bi bi-check"></i> <span>Apagado Remoto de Vehículo</span></li>
+                <li><i class="bi bi-check"></i> <span>Renovación Mensual o Anual</span></li>
+                <li><i class="bi bi-check"></i> <span>Acceso a la plataforma</span></li>
+                <li><i class="bi bi-check"></i> <span>Aplicación Android para control total</span></li>
+              </ul>
+              <a href="https://wa.me/593996295391?text=Hola%2C%20quiero%20saber%20sobre%20el%20Plan%20Sentinel%2C%20cu%C3%A1les%20son%20los%20beneficios%20y%20el%20costo%3F" class="buy-btn" target="_blank">Adquiérelo Ahora</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="pricing-item">
+              <h3>Plan Guardian</h3>
+              <!-- <h4><sup>$</sup>29<span> / month</span></h4> -->
+              <h4><sup></sup><span> Mensual / Anual</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Incluye todo lo del Plan Sentinel</span></li>
+                <li><i class="bi bi-check"></i> <span>Botón de pánico</span></li>
+                <!-- <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
+                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li> -->
+              </ul>
+              <a href="https://wa.me/593996295391?text=Hola%2C%20quiero%20saber%20sobre%20el%20Plan%20Guardian%2C%20cu%C3%A1les%20son%20los%20beneficios%20y%20el%20costo%3F" class="buy-btn" target="_blank">Adquiérelo Ahora</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="pricing-item">
+              <h3>Plan Shadow</h3>
+              <!-- <h4><sup>$</sup>49<span> / month</span></h4> -->
+              <h4><sup></sup><span> Mensual / Anual</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Incluye todo lo del Plan Guardian</span></li>
+                <li><i class="bi bi-check"></i> <span>Micrófono Espía</span></li>
+                <!-- <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
+                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li> -->
+              </ul>
+               <a href="https://wa.me/593996295391?text=Hola%2C%20quiero%20saber%20sobre%20el%20Plan%20Shadow%2C%20cu%C3%A1les%20son%20los%20beneficios%20y%20el%20costo%3F" class="buy-btn" target="_blank">Adquiérelo Ahora</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
         </div>
-        <div class="choose__card">
-          <span><i class="ri-map-pin-line"></i></span>
-          <div>
-            <h4>¿Puedo monitorear mi vehículo en tiempo real?</h4>
-            <p>Sí, podrás ver la ubicación de tu vehículo en tiempo real a través de nuestra app o plataforma web, con
-              actualizaciones constantes.</p>
+
+      </div>
+
+      <section id="about" class="about section">
+
+        <div class="container">
+  
+          <div class="row gy-4">
+            <div class="col-lg-6 position-relative align-self-start order-lg-last order-first" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/about2.jpg" class="img-fluid" alt="">
+              <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a> -->
+            </div>
+
+            <div class="col-lg-6 content order-last  order-lg-first" data-aos="fade-up" data-aos-delay="100">
+              <h3>Planes Accesibles</h3>
+              <p style="text-align: justify;">
+                Elige el plan que se adapta a tus necesidades y disfruta de lo mejor en tecnología GPS. Contrata nuestros servicios con los mejores precios en servicios de rastreo satelital en el Ecuador.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-currency-dollar"></i>
+                  <div>
+                    <h5>Planes Flexibles y Descuento por Múltiples Vehículos</h5>
+                    <p style="text-align: justify;">Elige entre nuestro plan mensual o anual según lo que más te convenga. Además, si proteges dos o más vehículos, obtendrás un descuento especial. Cuantos más vehículos tengas asegurados, más ahorrarás. ¡Maximiza tu protección y ahorra al mismo tiempo!</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bi bi-calendar-check"></i>
+                  <div>
+                    <h5>Plan Sentinel & Plan Guardian – Protección Total y Seguridad Avanzada</h5>
+                    <p style="text-align: justify;">Con el Plan Sentinel, tendrás el control total de tu vehículo con rastreo en tiempo real y apagado remoto, más instalación gratis y acceso a nuestra app. Si buscas mayor seguridad, el Plan Guardian incluye todo lo del Sentinel, con la adición de un botón de pánico para emergencias. ¡Elige el plan que mejor se adapte a tus necesidades y maneja tranquilo!</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bi bi-shield-lock"></i>
+                  <div>
+                    <h5>Plan Shadow – Máxima seguridad y control absoluto</h5>
+                    <p style="text-align: justify;">Disfruta de todo lo del Plan Guardian, con la ventaja extra de un micrófono espía para escuchar dentro del vehículo. Perfecto para quienes buscan protección total. ¡No dejes nada al azar!</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            
+  
+          </div>
+  
+        </div>
+  
+      </section><!-- /About Section -->
+    </section><!-- /Pricing Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" >
+
+      <!-- <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div> -->
+      <div class="banner__container">
+        <img src="assets/img/testimonials-bg.jpg" alt="Promoción GPS">
+      </div>
+    </section><!-- /Testimonials Section -->
+    
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span>Preguntas Frecuentes</span>
+        <h2>Preguntas Frecuentes</h2>
+        <p>Aquí te mostramos algunas de las preguntas más frecuentes que pueden ayudarte a resolver tus dudas.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>¿Cómo funciona el botón de pánico?</h3>
+                <div class="faq-content">
+                  <p>Al presionar el botón de pánico, se envía una alerta a tu contacto, también se ofrece asistencia directa desde nuestra central.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>¿Puedo monitorear mi vehículo en tiempo real?</h3>
+                <div class="faq-content">
+                  <p>Sí, podrás ver la ubicación de tu vehículo en tiempo real a través de nuestra app o plataforma web, con actualizaciones constantes.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>¿Qué significa "Bloquear el Vehículo"?</h3>
+                <div class="faq-content">
+                  <p>Significa apagar el motor de forma remota ante emergencias, evitando la perdida de tu inversion.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>¿Qué sucede si se corta la corriente del GPS?</h3>
+                <div class="faq-content">
+                  <p>El dispositivo cuenta con una batería interna que permite su funcionamiento para recuperación del vehículo, además de enviar una alerta cuando la energía se interrumpe.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>¿Por qué hay un costo mensual si el GPS es gratuito?</h3>
+                <div class="faq-content">
+                  <p>El costo cubre el desarrollo y mantenimiento de la plataforma, el plan de datos del GPS, licencias, mapas y actualizaciones para asegurar un servicio óptimo.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>¿El micrófono espía se escucha en tiempo real?</h3>
+                <div class="faq-content">
+                  <p>Si, puedes escuchar en tiempo real lo que ocurre dentro del vehículo.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">SyncTrack GPS</span>
+          </a>
+          <p>"Tu tranquilidad, nuestra prioridad: Soluciones GPS confiables para automóviles, camiones y motos."</p>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
-        <div class="choose__card">
-          <span><i class="ri-wallet-line"></i></span>
-          <div>
-            <h4>¿Por qué hay un costo mensual si el GPS es gratuito?</h4>
-            <p>El costo cubre el desarrollo y mantenimiento de la plataforma, el plan de datos del GPS, licencias, mapas
-              y actualizaciones para asegurar un servicio óptimo.</p>
-          </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Productos</h4>
+          <ul>
+            <li><a href="https://wa.me/p/9060576037329557/593996295391?text=Hola,%20quiero%20conocer%20más%20sobre%20el%20plan%20privado%20para%20mi%20veh%C3%ADculo.%20Me%20encantar%C3%ADa%20saber%20todos%20los%20beneficios%20y%20ventajas!" target="_blank">Planes Privados</a></li>
+            <li><a href="https://wa.me/p/9615841391783270/593996295391?text=Hola,%20me%20gustar%C3%ADa%20saber%20más%20sobre%20el%20plan%20cooperativa.%20Quisiera%20saber%20si%20hay%20beneficios%20especiales%20para%20más%20de%202%20unidades%20vehiculares%20y%20cómo%20me%20lo%20dejan." target="_blank">Planes Cooperativa</a></li>
+            <li><a href="#">Aplicación Web</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.itrybrand.tracker" target="_blank">Aplicación Móvil - Android</a></li>
+            <li><a href="https://apps.apple.com/co/app/protrack-gps/id974137774" target="_blank">Aplicación Móvil - iOS</a></li>
+          </ul>
         </div>
-        <div class="choose__card">
-          <span><i class="ri-lock-line"></i></span>
-          <div>
-            <h4>¿Qué significa "Bloquear el Vehículo"?</h4>
-            <p>Significa apagar el motor de forma remota ante emergencias, evitando la perdida de tu inversion.</p>
-          </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Nosotros</h4>
+          <ul>
+            <li><a href="#">Quiénes somos</a></li>
+            <li><a href="#">Misión y Visión</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Noticias</a></li>
+            <!-- <li><a href="#">Graphic Design</a></li> -->
+          </ul>
         </div>
-        <div class="choose__card">
-          <span><i class="ri-mic-line"></i></span>
-          <div>
-            <h4>¿El micrófono espía se escucha en tiempo real?</h4>
-            <p>Si, puedes escuchar en tiempo real lo que ocurre dentro del vehículo.</p>
-          </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contactanos</h4>
+          <!-- <p>A108 Adam Street</p> -->
+          <!-- <p>New York, NY 535022</p> -->
+          <p class="mt-4"></p>Ecuador - El Oro</p>
+          <p class="mt-4"><strong>Celular:</strong> <span>+593 99 629 5391</span></p>
+          <p class="mt-4"></p><strong>Whatsapp:</strong> <span>0996295391</span></p>
+          <p class="mt-4"><strong>Email:</strong> <span>SyncTrackGPS_ecu@outlook.es</span></p>
         </div>
+
       </div>
     </div>
 
-  </section>
-
-
-  <footer id="contact" style="text-align: center; padding: 20px; background-color: #a2d9ff;">
-    <div class="section__container footer__container"
-      style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
-      <!-- Logo y descripción -->
-      <div class="footer__logo">
-        <a href="#" class="logo" style="font-size: 24px; font-weight: bold; text-decoration: none;">SyncTrack GPS</a>
-      </div>
-      <p style="max-width: 600px; margin: 0 auto;">
-        "Tu tranquilidad, nuestra prioridad: Soluciones GPS confiables para automóviles, camiones y motos."
-      </p>
-      <!-- Contacto -->
-      <div class="footer__col">
-        <h4 style="margin-bottom: 15px;">Contáctanos</h4>
-        <div class="footer__links"
-          style="display: flex; justify-content: center; gap: 20px; align-items: center; flex-wrap: wrap;">
-          <a href="#" style="text-decoration: none; color: #333; display: flex; align-items: center;">
-            <span style="margin-right: 5px;"><i class="ri-phone-fill"></i></span> +593991828721
-          </a>
-          <a href="mailto:SyncTrackgps_soluction@outlook.com"
-            style="text-decoration: none; color: #333; display: flex; align-items: center;">
-            <span style="margin-right: 5px;"><i class="ri-mail-fill"></i></span> SyncTrackgps_soluction@outlook.com
-          </a>
-          <a href="#" style="text-decoration: none; color: #333; display: flex; align-items: center;">
-            <span style="margin-right: 5px;"><i class="ri-map-pin-2-fill"></i></span> El Oro, Ecuador
-          </a>
-        </div>
-      </div>
-
-      <!-- Redes sociales -->
-      <div class="footer__socials" style="margin-top: 20px;">
-        <ul style="list-style: none; padding: 0; display: flex; gap: 15px; justify-content: center; margin: 0;">
-          <li>
-            <a href="#" style="color: #333; font-size: 20px;"><i class="ri-facebook-fill"></i></a>
-          </li>
-          <li>
-            <a href="#" style="color: #333; font-size: 20px;"><i class="ri-instagram-line"></i></a>
-          </li>
-          <li>
-            <a href="#" style="color: #333; font-size: 20px;"><i class="ri-youtube-line"></i></a>
-          </li>
-        </ul>
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Logis</strong> <span>Todos los Derechos Reservados</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href=“https://themewagon.com>ThemeWagon -->
       </div>
     </div>
 
-    <!-- Barra inferior -->
-    <div class="footer__bar" style="margin-top: 20px; font-size: 14px; color: #777;">
-      Copyright © 2025 Diseño Web a toda Honra. Cuidado Derechos reservados.
-    </div>
   </footer>
 
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="main.js"></script>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
